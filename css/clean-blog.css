@@ -7,7 +7,6 @@
   color: #12224d;
 }
 
-
 body {
   font-size: 20px;
   color: #333333;
@@ -151,7 +150,8 @@ body {
 
 header.masthead {
   margin-bottom: 50px;
-  background: no-repeat center center;
+  margin-top: -200px;
+  background: no-repeat;
   background-color: #777777;
   background-attachment: scroll;
   -webkit-background-size: cover;
@@ -167,14 +167,15 @@ header.masthead {
       header.masthead .site-heading,
       header.masthead .post-heading,
       header.masthead .page-heading {
-        padding: 150px 0; } }
+        padding: 200px 0; } }
   header.masthead .site-heading,
   header.masthead .page-heading {
     text-align: center; }
     header.masthead .site-heading h1,
     header.masthead .page-heading h1 {
       font-size: 50px;
-      margin-top: 0; }
+      margin-top: 105px;
+      margin-bottom: 0px;}
     header.masthead .site-heading .subheading,
     header.masthead .page-heading .subheading {
       font-size: 24px;
