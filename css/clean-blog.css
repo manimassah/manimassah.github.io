@@ -414,6 +414,23 @@ svg {
     animation: PFD 1s ease-out forwards;
 }
 
+
+.FULL .circle_animation {
+    -webkit-animation: FULL 1s ease-out forwards;
+    animation: FULL 1s ease-out forwards;
+}
+
+.Electrochemistry .circle_animation {
+    -webkit-animation: Electrochemistry 1s ease-out forwards;
+    animation: Electrochemistry 1s ease-out forwards;
+}
+
+.Process .circle_animation {
+    -webkit-animation: Process 1s ease-out forwards;
+    animation: Process 1s ease-out forwards;
+}
+
+
 @-webkit-keyframes HYSYS {
   to {
     stroke-dashoffset: 0px;
@@ -493,9 +510,46 @@ svg {
 }
 
 
+@-webkit-keyframes FULL {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes FULL  {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
 
 
-<style>
+@-webkit-keyframes Process {
+  to {
+    stroke-dashoffset: 60;
+  }
+}
+
+@keyframes Process  {
+  to {
+    stroke-dashoffset: 60;
+  }
+}
+
+
+@-webkit-keyframes Electrochemistry {
+  to {
+    stroke-dashoffset: 60;
+  }
+}
+
+@keyframes Electrochemistry  {
+  to {
+    stroke-dashoffset: 60;
+  }
+}
+<!--Instagram Scroller-->
+
+
 .responsiveCal {
   position: relative; padding-bottom: 75%; height: 0; overflow: hidden;
 }
@@ -573,6 +627,5 @@ svg {
         height: 130px
     }
 }
-</style>
 
         
